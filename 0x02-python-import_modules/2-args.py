@@ -3,7 +3,7 @@ from sys import argv
 def prints_args():
     argument_no = len(argv) - 1
 
-    print(f"{argument_no} argument", end='')
+    print("{} argument".format(argument_no), end='')
     if argument_no == 0:
         print(".")
     elif argument_no == 1:
@@ -11,6 +11,6 @@ def prints_args():
     else:
         print("s:")
     for i, arg in enumerate(argv[1:], start=1):
-        print(f"{i}: {arg}")
+        print("{}: {}".format(i, arg))
 if __name__ == "__main__":
     prints_args()
