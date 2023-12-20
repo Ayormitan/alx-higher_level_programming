@@ -2,5 +2,7 @@
 """Class to defines square"""
 class Square:
     """Initialized attribute privatize instace"""
+
     def __init__(self, size):
-        self.__private = size
+        """Initiliaze a new square"""
+        self.__size = size
