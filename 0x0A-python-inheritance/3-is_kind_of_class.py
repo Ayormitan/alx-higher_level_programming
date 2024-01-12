@@ -1,4 +1,4 @@
-#!/usr/bin/ptyhon3
+#!/usr/bin/python3
 """ Function defines class and instance"""
 def is_kind_of_class(obj, a_class):
     """ Function will check for type of class using isinstance
