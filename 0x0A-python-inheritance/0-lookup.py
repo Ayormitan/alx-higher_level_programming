@@ -5,4 +5,4 @@
         obj: List to check for
 """
 def lookup(obj):
-    return dir(list)
+    return dir(obj)
