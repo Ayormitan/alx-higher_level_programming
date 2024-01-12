@@ -1,0 +1,20 @@
+=======================
+Howto use 1-my_list.txt
+=======================
+>>> Mylist =  __import__('1-my_list').Mylist
+
+::
+	>>> my_list.append(1)
+	print(my_listi)
+	[1]
+
+::
+	>>> my_list.append(1)
+	>>> my_list.append(4) 
+	>>> my_list.append(2) 
+	>>> my_list.append(3) 
+	>>> my_list.append(5)
+	>>> print(my_list)
+	>>> print(my_list)
+	[1, 4, 2, 3, 5]
+	[1, 4, 2, 3, 5]
