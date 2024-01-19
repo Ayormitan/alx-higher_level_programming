@@ -69,3 +69,16 @@ class Rectangle(Base):
     def area(self):
         """print the rectangle using #"""
         return self.width * self.height
+    def display(self):
+        """print rectangle using the '#' char"""
+        if self.width == 0 or self.height == 0:
+            print("")
+            return
+        [print("") for y in range(self.y)]
+        for h in range(self.height):
+            [print(" ", end="") for x in range (self.x)]
+            [print("#", end="") for w in range(self.width)]
+            print("")
+    def __str__(self):
+        """verriding the __str__ method"""
+        return "[Rectangle] ({}) {}/{} - {}/{}".format(self.id, self.x, self.y, self.width, self.height)
