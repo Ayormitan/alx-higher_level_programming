@@ -1,13 +1,8 @@
 #!/usr/bin/node
-/**
- * Using process arg
- * fiels
- */
-const args = process.argv;
-
-if (args.length == 2) {
+if (process.argv.length === 2) {
 	console.log('No argument');
-}
-else{
+} else if (process.argv.length === 3) {
+	console.log('Argument found');
+} else {
 	console.log('Argument found');
 }
