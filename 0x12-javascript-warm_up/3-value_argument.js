@@ -2,12 +2,11 @@
 /**
  * prints argument to console
  */
-const argv = process.argv.slice(2)
-if (argv[0])
+if (process.argv[2] == undefined)
 {
-	console.log('argv[0]');
+	console.log('No argument');
 }
 else
 {
-	console.log('No argument');
+	console.log('process.argv[2]');
 }
