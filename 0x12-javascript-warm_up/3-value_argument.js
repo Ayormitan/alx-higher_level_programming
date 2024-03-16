@@ -2,7 +2,7 @@
 /**
  * prints argument to console
  */
-if (process.argv[2] == undefined)
+if (process.argv[2] === undefined)
 {
 	console.log('No argument');
 }
