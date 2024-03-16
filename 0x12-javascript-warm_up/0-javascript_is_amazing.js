@@ -3,4 +3,4 @@
  * This is a javascript code
  * to print to the console
  **/
-console.log("JavaScript is amazing");
+console.log('JavaScript is amazing');
